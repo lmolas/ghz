@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bojand/ghz/printer"
-	"github.com/bojand/ghz/runner"
+	"github.com/lmolas/ghz/printer"
+	"github.com/lmolas/ghz/runner"
 )
 
 func main() {

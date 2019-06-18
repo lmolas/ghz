@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/bojand/ghz/runner"
 	"github.com/jinzhu/gorm"
+	"github.com/lmolas/ghz/runner"
 )
 
 // Options represents a report detail

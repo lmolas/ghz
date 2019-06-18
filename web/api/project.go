@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bojand/ghz/web/model"
 	"github.com/labstack/echo"
+	"github.com/lmolas/ghz/web/model"
 )
 
 // ProjectDatabase interface for encapsulating database access.

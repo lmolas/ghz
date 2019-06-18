@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bojand/ghz/internal"
 	"github.com/jhump/protoreflect/grpcreflect"
+	"github.com/lmolas/ghz/internal"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

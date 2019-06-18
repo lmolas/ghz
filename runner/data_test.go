@@ -2,11 +2,12 @@ package runner
 
 import (
 	"encoding/json"
-	"github.com/bojand/ghz/testdata"
-	"github.com/golang/protobuf/proto"
 	"testing"
 
-	"github.com/bojand/ghz/protodesc"
+	"github.com/golang/protobuf/proto"
+	"github.com/lmolas/ghz/internal/helloworld"
+
+	"github.com/lmolas/ghz/protodesc"
 
 	"github.com/stretchr/testify/assert"
 )

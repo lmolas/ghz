@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/bojand/ghz/web/model"
+	"github.com/lmolas/ghz/web/model"
 )
 
 // FindReportByID gets the report by id

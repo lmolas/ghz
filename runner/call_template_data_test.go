@@ -3,7 +3,7 @@ package runner
 import (
 	"testing"
 
-	"github.com/bojand/ghz/protodesc"
+	"github.com/lmolas/ghz/protodesc"
 	"github.com/stretchr/testify/assert"
 )
 

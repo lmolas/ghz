@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/bojand/hri"
+	"github.com/lmolas/hri"
 )
 
 // Project represents a project

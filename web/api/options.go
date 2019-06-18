@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/bojand/ghz/web/model"
 	"github.com/labstack/echo"
+	"github.com/lmolas/ghz/web/model"
 )
 
 // OptionsDatabase interface for encapsulating database access.

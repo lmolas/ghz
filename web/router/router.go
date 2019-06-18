@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bojand/ghz/web/api"
-	"github.com/bojand/ghz/web/config"
-	"github.com/bojand/ghz/web/database"
+	"github.com/lmolas/ghz/web/api"
+	"github.com/lmolas/ghz/web/config"
+	"github.com/lmolas/ghz/web/database"
 	"github.com/rakyll/statik/fs"
 
 	"github.com/go-playground/validator"
@@ -19,7 +19,7 @@ import (
 	"github.com/labstack/gommon/log"
 
 	// for bundled resources
-	_ "github.com/bojand/ghz/web/router/statik"
+	_ "github.com/lmolas/ghz/web/router/statik"
 )
 
 // New creates new server

@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bojand/ghz/printer"
-	"github.com/bojand/ghz/runner"
 	"github.com/jinzhu/configor"
+	"github.com/lmolas/ghz/printer"
+	"github.com/lmolas/ghz/runner"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 

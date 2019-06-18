@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bojand/ghz/protodesc"
 	"github.com/jhump/protoreflect/desc"
 	"github.com/jhump/protoreflect/dynamic"
 	"github.com/jhump/protoreflect/dynamic/grpcdynamic"
 	"github.com/jhump/protoreflect/grpcreflect"
+	"github.com/lmolas/ghz/protodesc"
 
 	"go.uber.org/multierr"
 	"google.golang.org/grpc"

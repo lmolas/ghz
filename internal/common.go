@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/bojand/ghz/internal/helloworld"
+	"github.com/lmolas/ghz/internal/helloworld"
 )
 
 // TestPort is the port.

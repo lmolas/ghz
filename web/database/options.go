@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/bojand/ghz/web/model"
+	"github.com/lmolas/ghz/web/model"
 )
 
 // CreateOptions creates a new report
