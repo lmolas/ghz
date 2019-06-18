@@ -17,6 +17,7 @@ import (
 
 	"go.uber.org/multierr"
 	"google.golang.org/grpc"
+	"google.golang.org/grpc/balancer/roundrobin"
 	"google.golang.org/grpc/keepalive"
 	"google.golang.org/grpc/metadata"
 
@@ -269,6 +270,8 @@ func (b *Requester) newClientConn(withStatsHandler bool) (*grpc.ClientConn, erro
 	if withStatsHandler {
 		opts = append(opts, grpc.WithStatsHandler(&statsHandler{b.results}))
 	}
+
+	opts = append(opts, grpc.WithBalancerName(roundrobin.Name))
 
 	// create client connection
 	return grpc.DialContext(ctx, b.config.host, opts...)
